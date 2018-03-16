@@ -6,7 +6,9 @@
             "request": "launch",
             "name": "localhost",
             "server": "http://localhost",
-            "serverInstance": "DynamicsNAV110"
+            "serverInstance": "DynamicsNAV110",
+            "authentication": "Windows",
+            "schemaUpdateMode": "Recreate"
         }
     ]
 }

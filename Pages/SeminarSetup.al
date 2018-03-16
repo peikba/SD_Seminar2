@@ -7,7 +7,7 @@ page 123456700 "Seminar Setup"
     Caption='Seminar Setup';
     InsertAllowed = false;
     DeleteAllowed = false;
-    UsageCategory = Administration;
+    UsageCategory = Tasks;
 
     layout
     {

@@ -11,4 +11,3 @@ Split-NAVApplicationObjectFile -Source 'C:\temp\Al-Conversion\*.txt' -Destinatio
 $Command = "C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client\txt2al.exe" 
 & $Command --source c:\temp\Al-Conversion\cal --target c:\temp\Al-Conversion\al
         
-
