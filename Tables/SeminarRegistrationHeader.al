@@ -38,7 +38,7 @@ table 123456710 "Seminar Registration Header"
                   SeminarRegLine.RESET;
                   SeminarRegLine.SETRANGE("Document No.","No.");
                   SeminarRegLine.SETRANGE(Registered,true);
-                  if not SeminarRegLine.ISEMPTY then
+                  if not SeminarRegLine.IsEmpty then
                     ERROR(
                       Text002,
                       FieldCaption("Seminar No."),
@@ -181,7 +181,7 @@ table 123456710 "Seminar Registration Header"
                   SeminarRegLine.RESET;
                   SeminarRegLine.SETRANGE("Document No.","No.");
                   SeminarRegLine.SETRANGE(Registered,false);
-                  if SeminarRegLine.FINDSET(false,FALSE) thenE,false) then
+                  if SeminarRegLine.FINDSET(false,FALSE) then
                     if Confirm(Text005,false,
                          FieldCaption("Seminar Price"),
                          SeminarRegLine.TableCaption)
